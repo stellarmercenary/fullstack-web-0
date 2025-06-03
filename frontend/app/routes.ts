@@ -1,0 +1,12 @@
+import { type RouteConfig, index, layout, route } from "@react-router/dev/routes";
+
+export default [
+    index("Pages/Home.tsx"),
+    route("agent", "Pages/Agent.tsx"),
+    route("news", "Pages/News.tsx"),
+    route("login", "Pages/Login.tsx"),
+    route("service", "Pages/News2.tsx"),
+    route("grace", "Pages/Grace.tsx"),
+    route("postDetail/:id", "Components/Post/PostDetail.tsx"),
+    route("postEdit/:id", "Components/Post/PostEdit.tsx"),
+] satisfies RouteConfig;

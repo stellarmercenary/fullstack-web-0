@@ -1,0 +1,241 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+html,
+
+*{
+    /* @apply font-serif; */
+}
+body {
+    @apply bg-white dark:bg-gray-950;
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    }
+}
+
+.nav-hover {
+    @apply hover:bg-black hover:text-white hover:border-[0.5px] hover:border-white transition-all duration-300 ease-in-out;
+}
+
+
+.likes img,
+.interaction img {
+    @apply h-4;
+}
+
+.np-hover {
+    @apply hover:bg-blue-500 hover:text-white transition-all duration-300 ease-in-out hover:border-2;
+}
+
+@keyframes slide-down {
+    0% {
+        top: -30%;
+        opacity: 50%;
+    }
+    45% {
+        top: -10%;
+        opacity: 80%;
+    }
+    50% {
+        top: -10%;
+        opacity: 80%;
+    }
+    95% {
+        top: -30%;
+        opacity: 50%;
+    }
+    100% {
+        top: -30%;
+        opacity: 50%;
+    }
+}
+.down {
+    animation: slide-down 10s linear infinite;
+}
+
+@keyframes slide-down1 {
+    0% {
+        top: 80%;
+    }
+    100% {
+        top: -120%;
+    }
+}
+
+.down1 {
+    animation: slide-down1 10s linear infinite;
+}
+
+@keyframes slide-down2 {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -100%;
+    }
+}
+
+.down2 {
+    animation: slide-down2 10s linear infinite;
+}
+
+@theme {
+    --animate-slide-in: slide-in 0.3s ease-out forwards;
+    @keyframes slide-in {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+
+@theme {
+    --animate-slide-out: slide-out 0.3s ease-out forwards;
+    @keyframes slide-out {
+        from {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        to {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+    }
+}
+
+.sidebar-effect {
+    @apply ml-[20vh];
+}
+
+@theme {
+    @keyframes expandWidth {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 4rem; /* Ganti sesuai dengan ukuran h-16 pada gambar */
+        }
+    }
+}
+.child1 {
+    animation: expandWidth 1s ease-out forwards;
+}
+
+@theme {
+    @keyframes scanningEffect {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    
+    
+}
+
+.child2 {
+    animation: scanningEffect 1s ease-out forwards;
+}
+
+
+
+.kolom {
+    @apply flex flex-col justify-start items-center w-[25%] min-h-[100px] py-[20px] gap-[20px];
+}
+
+/*card wrapper */
+.card-wrapper {
+    @apply z-20 w-[250px] flex flex-col justify-between items-center border-2 rounded-2xl rounded-br-none overflow-hidden relative border-gray-400 shadow-[0_0_10px_rgba(255,255,255,0.2)];
+}
+
+/* bagian pertama dalam card */
+.card-img {
+    @apply w-full flex-1 overflow-hidden;
+}
+
+.card-img img {
+    @apply w-full h-full object-cover transition-opacity duration-300;
+}
+
+.card-img img.loaded {
+    @apply opacity-100;
+}
+
+/* bagian 2 */
+.card-caption {
+    @apply w-full h-[100px] flex flex-col justify-start p-3 pb-[22px] pt-0 bg-[#1e1e1e] text-white;
+}
+
+/* 2a */
+.profile-box {
+    @apply relative w-full h-[auto];
+}
+
+.profile-box h1 {
+    @apply text-[12px] font-bold text-gray-400 pl-11 underline inline-block;
+}
+
+.profilepic {
+    @apply w-[40px] h-[40px] rounded-[100%] absolute bottom-0 z-100 overflow-hidden border-2 border-[#2f2f2f];
+}
+
+.profilepic img {
+    @apply w-full h-[auto] object-cover;
+}
+
+/* 2b */
+.content {
+    @apply flex flex-col items-start justify-start flex-1 overflow-hidden;
+}
+
+.content h1 {
+    @apply text-base font-bold text-white;
+}
+
+.content p {
+    @apply text-xs text-gray-400 text-justify font-bold;
+}
+
+/* 2c */
+.interaction {
+    @apply flex justify-between items-center text-xs absolute bottom-0 left-0 px-3 w-full h-[20px];
+}
+
+.likes {
+    @apply flex items-center gap-1;
+}
+
+.likes img,
+.interaction img {
+    @apply h-4;
+}
+
+.np-hover {
+    @apply hover:bg-blue-500 hover:text-white transition-all duration-300 ease-in-out hover:border-2;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #27272a; /* zinc-800 */
+    border-radius: 5px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
