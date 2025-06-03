@@ -1,51 +1,26 @@
 [
   {
-    "judul": "my luvvvv",
-    "caption": "                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic labore provident consequatur earum sequi delectus accusamus itaque quos quidem possimus necessitatibus, similique repellat dolores alias enim voluptates sed nulla quae.\n",
-    "img": "app/Components/Post/Img/jane-01.jpeg",
+    "judul": "[POST] TRIGGER",
+    "caption": "Shes a baddie",
+    "img": "http://localhost:5174/uploads/1748695913219-54482395.jpg",
     "size": "300px",
-    "cardSize": "400px"
+    "cardSize": "400px",
+    "id": "1748695913209"
   },
   {
-    "judul": "cutieeee",
-    "caption": "                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic labore provident consequatur earum sequi delectus accusamus itaque quos quidem possimus necessitatibus, similique repellat dolores alias enim voluptates sed nulla quae.\n",
-    "img": "app/Components/Post/Img/jane-08.jpeg",
-    "size": "200px",
-    "cardSize": "300px"
-  },
-  {
-    "judul": "I WANT TO GET EATEN BY HER",
-    "caption": "pls eat me janeeeeeee",
-    "img": "app/Components/Post/Img/jane-07.jpeg",
+    "judul": "[POST] Graceee cakep bgt anjir",
+    "caption": "aku bakal modif beberapa bagian tubuhku biar di notice sama grace awwwww",
+    "img": "http://localhost:5174/uploads/1748696844636-949648163.jpeg",
     "size": "300px",
-    "cardSize": "400px"
+    "cardSize": "400px",
+    "id": "1748696844629"
   },
   {
     "judul": "",
     "caption": "",
-    "img": "app/Components/Post/Img/jane-01.jpeg",
-    "size": "200px",
-    "cardSize": "300px"
-  },
-  {
-    "judul": "",
-    "caption": "",
-    "img": "app/Components/Post/Img/jane-01.jpeg",
+    "img": "/app/Components/Post/Img/jane-01.jpeg",
     "size": "300px",
-    "cardSize": "400px"
-  },
-  {
-    "judul": "",
-    "caption": "",
-    "img": "app/Components/Post/Img/jane-01.jpeg",
-    "size": "100px",
-    "cardSize": "200px"
-  },
-  {
-    "judul": "",
-    "caption": "                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic labore provident consequatur earum sequi delectus accusamus itaque quos quidem possimus necessitatibus, similique repellat dolores alias enim voluptates sed nulla quae.\n",
-    "img": "app/Components/Post/Img/jane-01.jpeg",
-    "size": "300px",
-    "cardSize": "400px"
+    "cardSize": "400px",
+    "id": "1748700698188"
   }
 ]
