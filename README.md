@@ -28,5 +28,8 @@ The CSS styling and UI design were primarily created by me,
 and thus the MIT License applies only to the code and styling provided here.
 
 ---
+## Note
+⚠️ The edit feature is currently unavailable because it is still being fixed. 
+
 
 Thank you for visiting and supporting this project!
