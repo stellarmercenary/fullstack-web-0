@@ -16,11 +16,19 @@
     "id": "1748696844629"
   },
   {
-    "judul": "",
-    "caption": "",
+    "judul": "[POST] Jane Doe",
+    "caption": "Sat Rex",
     "img": "/app/Components/Post/Img/jane-01.jpeg",
     "size": "300px",
     "cardSize": "400px",
     "id": "1748700698188"
+  },
+  {
+    "judul": "[POST] Evelyn",
+    "caption": "Pengen diikat evelyn",
+    "img": "http://localhost:5174/uploads/1749029133899-830474998.jpeg",
+    "size": "300px",
+    "cardSize": "400px",
+    "id": "1749029133867"
   }
 ]

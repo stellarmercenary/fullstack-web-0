@@ -28,7 +28,6 @@ const HomePage: React.FC = () => {
                             PHAETHON
                         </h1>
                     </div>
-
                     {/* 3 Content Boxes */}
                     <div className="z-20 w-full h-[50%] rounded-b-[10px] flex items-center justify-center gap-5 flex-wrap relative">
                         {[
