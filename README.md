@@ -1,4 +1,4 @@
-# [Legendary Phaethon's Website 🥶]
+# [Legendary Phaethon's Website ^_^]
 
 This is a fan-made web project inspired by Zenless Zone Zero (ZZZ).  
 Its purpose is solely for learning and exploration, not for commercial use.
