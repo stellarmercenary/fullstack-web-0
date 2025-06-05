@@ -29,6 +29,38 @@ and thus the MIT License applies only to the code and styling provided here.
 
 ---
 
-## Note
+## Here’s the same instructions in plain text format for a README.txt:
 
-Thank you for visiting and supporting this project!
+---
+
+How to Run the Project
+
+1. Clone the repository
+   git clone https://github.com/stellarmercenary/fullstack-web-zenlesszone.git
+   cd fullstack-web-zenlesszone
+
+2. Install dependencies for both frontend and backend
+   You need to run the install command separately in both folders:
+
+    - In the frontend folder:
+      cd frontend
+      npm install
+
+    - In the backend folder:
+      cd ../backend
+      npm install
+
+3. Start the backend and frontend servers
+   Open two separate terminals and run the following commands:
+
+    - For backend (inside the backend folder):
+      node server.js
+
+    - For frontend (inside the frontend folder):
+      npm run dev
+
+---
+
+Important: Don’t forget to run npm install in both frontend and backend folders before starting the servers to make sure all packages are installed.
+
+---
