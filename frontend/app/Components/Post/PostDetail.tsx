@@ -73,10 +73,11 @@ export default function PostDetail() {
                         </div>
                     </div>
 
-                    <h2 className="font-semibold text-white">Comments:</h2>
+                    
                     {/* bottom/Comment */}
-                    <div className="h-[200px] w-full overflow-y-scroll custom-scrollbar">
-                        <div className="space-y-2 pt-4">
+                    <div className="h-[200px] w-full overflow-y-scroll custom-scrollbar flex flex-col items-center">
+                        <h2 className="font-semibold text-white w-full text-center">Comments:</h2>
+                        <div className="space-y-2 pt-4 w-full">
                             <div className="bg-zinc-600 p-2 rounded">
                                 <h1 className="text-zinc-200">
                                     dafeelatte_: i wanna eat her...
@@ -95,6 +96,7 @@ export default function PostDetail() {
                         </div>
                     </div>
 
+                    {/* Buttons */}
                     <div className="flex pt-2 gap-4 justify-between w-full">
                         <div className="flex gap-4">
                             <button
@@ -107,16 +109,17 @@ export default function PostDetail() {
                                 className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
                                 Edit
                             </button>
+                            <button
+                                onClick={() => navigate(`/news`)}
+                                className="bg-gray-300 px-4 py-2 rounded hover:bg-gray-500">
+                                Back
+                            </button>
                         </div>
-
-                        <button
-                            onClick={() => navigate(`/news`)}
-                            className="bg-gray-300 px-4 py-2 rounded hover:bg-gray-500">
-                            Back
-                        </button>
                     </div>
+                    
                 </div>
             </div>
+
             {/* border */}
             <div className="z-10 absolute w-full h-full pt-[80px] flex flex-col justify-between">
                 <div className="h-[50px] w-full bg-black"></div>

@@ -8,16 +8,8 @@
     "id": "1748695913209"
   },
   {
-    "judul": "[POST] Graceee cakep bgt anjir",
-    "caption": "aku bakal modif beberapa bagian tubuhku biar di notice sama grace awwwww",
-    "img": "http://localhost:5174/uploads/1748696844636-949648163.jpeg",
-    "size": "300px",
-    "cardSize": "400px",
-    "id": "1748696844629"
-  },
-  {
     "judul": "[POST] Jane Doe",
-    "caption": "Sat Rex",
+    "caption": "My beloved Jane",
     "img": "/app/Components/Post/Img/jane-01.jpeg",
     "size": "300px",
     "cardSize": "400px",
@@ -30,5 +22,13 @@
     "size": "300px",
     "cardSize": "400px",
     "id": "1749029133867"
+  },
+  {
+    "judul": "The Herta",
+    "caption": "Witch",
+    "img": "http://localhost:5174/uploads/1749139452470-942484083.jpeg",
+    "size": "300px",
+    "cardSize": "400px",
+    "id": "1749139452469"
   }
 ]
