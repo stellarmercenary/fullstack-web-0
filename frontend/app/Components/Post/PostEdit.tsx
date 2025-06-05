@@ -1,3 +1,4 @@
+import { Play } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -36,7 +37,9 @@ const PostEdit = () => {
             <div className="w-[500px] bg-zinc-300 h-[300px] border-2 border-white shadow-lg flex flex-col items-center gap-3">
                 {/* header */}
                 <div className="w-full h-8 bg-[#000080] flex justify-end p-1">
-                    <h1 className="h-full bg-gray-300 aspect-square border text-center grid place-items-center leading-none hover:bg-red-600">x</h1>
+                    <h1 className="h-full bg-gray-300 aspect-square border text-center grid place-items-center leading-none hover:bg-red-600">
+                        x
+                    </h1>
                 </div>
                 {/* i dont know what is it*/}
                 <div className="w-full h-18 flex">
@@ -53,7 +56,11 @@ const PostEdit = () => {
                     {/* right */}
                     <div className="w-1/2 h-full flex flex-col px-4">
                         <div className="w-full h-1/2 flex">
-                            <div className="w-3/5 h-full border"></div>
+                            <div className="w-3/5 h-full p-1">
+                                <button className="w-full h-full border border-b-black border-r-black hover:border-2">
+                                    <Play className="w-full h-full" />
+                                </button>
+                            </div>
                             <div className="w-1/5 h-full border"></div>
                             <div className="w-1/5 h-full border"></div>
                         </div>
@@ -67,10 +74,8 @@ const PostEdit = () => {
                     </div>
                 </div>
                 {/* kolom input perubahan */}
-                <div className="w-full border-y flex felx-col flex-1">
-                </div>
-                <div className="w-full border-t flex felx-col h-8">
-                </div>
+                <div className="w-full border-y flex felx-col flex-1"></div>
+                <div className="w-full border-t flex felx-col h-8"></div>
             </div>
         </div>
     );
