@@ -29,11 +29,7 @@ and thus the MIT License applies only to the code and styling provided here.
 
 ---
 
-## Here’s the same instructions in plain text format for a README.txt:
-
----
-
-How to Run the Project
+## How to Run the Project
 
 1. Clone the repository
    git clone https://github.com/stellarmercenary/fullstack-web-zenlesszone.git
