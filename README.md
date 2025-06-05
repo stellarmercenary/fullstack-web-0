@@ -38,30 +38,30 @@ and thus the MIT License applies only to the code and styling provided here.
 2. Install dependencies for both frontend and backend
    Run the install command separately in each folder:
 
-   - In the frontend folder:
-     cd frontend
-     npm install
+    - In the frontend folder:
+      cd frontend
+      npm install
 
-   - In the backend folder:
-     cd ../backend
-     npm install
+    - In the backend folder:
+      cd ../backend
+      npm install
 
 3. Start the backend and frontend servers
    You can run them in two separate terminals or use concurrently (see notes):
 
-   - For backend (inside the backend folder):
-     node server.js
+    - For backend (inside the backend folder):
+      node server.js
 
-   - For frontend (inside the frontend folder):
-     npm run dev
+    - For frontend (inside the frontend folder):
+      npm run dev
 
 4. (Optional) Run both servers simultaneously from the root folder:
-   
-   - Make sure dependencies installed in root (concurrently):
-     npm install
 
-   - Run both servers with one command:
-     npm start
+    - Make sure dependencies installed in root (concurrently):
+      npm install
+
+    - Run both servers with one command:
+      npm start
 
 ---
 
